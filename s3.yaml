@@ -6,13 +6,3 @@ Resources:
     Type: AWS::S3::Bucket
     Properties:
       BucketName: hidden-alphabet
-
-  RawData:
-    Type: AWS::S3::Bucket
-    Properties:
-      BucketName: hidden-alphabet-datasets
-
-  EnrichedData:
-    Type: AWS::S3::Bucket
-    Properties:
-      BucketName: hidden-alphabet-enriched
